@@ -5,36 +5,24 @@
 #
 seed_network_chain_id: "0000000000000000000000000000000000000000000000000000000000000001"
 seed_network_account_name: eosamsterdam
-seed_network_http_address: http://stage14.testnets.eoscanada.com
+seed_network_http_address: http://stage16.testnets.eoscanada.com
 # These are your peers on the SEED network.  They must have published
 # their discovery in the seed network `eosio.disco` contract (with
 # `eos-bios publish`). Otherwise, your peer link here will be ignored.
 seed_network_peers:
 - account: eoscanadacom
   weight: 100
-- account: tokenpocket1
-  weight: 20
-- account: eoscannonchn
-  weight: 20
-- account: blocksmithxx
-  weight: 20
-- account: eosjapanjeda
-  weight: 20
+- account: eoslaomaocom
+  weight: 80
 - account: eoshollandnl
   weight: 20
 - account: eosnewyorkog
   weight: 20
-- account: usblocksmith
-  weight: 20
-- account: eosiosg11111
-  weight: 20
-- account: eoslemonscom
-  weight: 20
-- account: eospaceioeos
-  weight: 20
+- account: eosnationcom
+  weight: 50
 
 # Block on the SEED EOS network before we orchestrate the TARGET network launch.  Putting a past block will start orchestration right away.
-seed_network_launch_block: 500
+seed_network_launch_block: 161120
 
 urls:
 - https://eosamsterdam.net
@@ -114,3 +102,4 @@ target_contents:
     comment: "Published by EOS Canada. From https://github.com/eoscanada/eos-bios/commit/8f1b9503dbb4c36bb75d7c74adebbc2d5a9d9175"
   - name: eosio.unregd.wasm
     ref: /ipfs/QmPYfn1bniet9NYjeSvyDWNvJie6Xad7uSYjydpsK4VwuP
+    comment: "Published by EOS Canada. From https://github.com/eoscanada/eos-bios/commit/8f1b9503dbb4c36bb75d7c74adebbc2d5a9d9175"
