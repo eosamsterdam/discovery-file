@@ -5,7 +5,7 @@
 #
 seed_network_chain_id: "0000000000000000000000000000000000000000000000000000000000000001"
 seed_network_account_name: eosamsterdam
-seed_network_http_address: http://stage16.testnets.eoscanada.com
+seed_network_http_address: http://pre17-api.mainnet.eoscanada.com
 # These are your peers on the SEED network.  They must have published
 # their discovery in the seed network `eosio.disco` contract (with
 # `eos-bios publish`). Otherwise, your peer link here will be ignored.
@@ -14,9 +14,9 @@ seed_network_peers:
   weight: 100
 - account: eoslaomaocom
   weight: 80
-- account: eoshollandnl
-  weight: 20
-- account: eosnewyorkog
+- account: eosgermanybp
+  weight: 80
+- account: eosblocksmit
   weight: 20
 - account: eosnationcom
   weight: 50
