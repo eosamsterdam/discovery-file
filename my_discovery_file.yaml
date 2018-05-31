@@ -20,6 +20,12 @@ seed_network_peers:
   weight: 20
 - account: eosnationcom
   weight: 50
+- account: eosvibesbloc
+  weight: 80
+- account: eosysdotio11
+  weight: 80
+- account: aus1genereos
+  weight: 60
 
 # Block on the SEED EOS network before we orchestrate the TARGET network launch.  Putting a past block will start orchestration right away.
 seed_network_launch_block: 161120
@@ -70,11 +76,11 @@ target_contents:
     comment: "Published by EOS Canada. Tag dawn-v4.2.0"
 
   - name: eosio.system.abi
-    ref: /ipfs/QmRmwmks3ctxd624ToJgQE5DNic1NLNHLKrhGzHzqPjS3S
-    comment: "Published by EOS Canada. Tag dawn-v4.2.0"
+    ref: /ipfs/QmTPP6C2sw7oSJjvaSbtR8SjHfx8R8rKwJDtTZe8VdzMrM
+    comment: "Published by EOS Canada. Tag DAWN-2018-05-30"
   - name: eosio.system.wasm
-    ref: /ipfs/QmSxrJBUVHW67FmsCh4Xa18moEVBh9UZnKK2xhPpYHujfG
-    comment: "Published by EOS Canada. Tag dawn-v4.2.0"
+    ref: /ipfs/QmWhjcw4djLxWVzNyg7SosjopcT3KayAjG5Gw8YAY7j3H1
+    comment: "Published by EOS Canada. Tag DAWN-2018-05-30"
 
   - name: eosio.msig.abi
     ref: /ipfs/QmRgNd9Jm6UX8qseBvMhfh8Pu3kdyJDNE1StGQWoYdp7Wx
