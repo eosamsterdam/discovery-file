@@ -33,8 +33,8 @@ gmt_offset: 200  # in HourMinutes format
 target_network_is_test: 1  # 0 = mainnet, anything else is a testnet
 # You can only link with peers that target the same chain_id
 target_chain_id: "0000000000000000000000000000000000000000000000000000000000000002"
-target_p2p_address: 35.198.188.108:9876
-target_http_address: http://35.198.188.108:8888
+target_p2p_address: 35.234.122.109:9876
+target_http_address: http://35.234.122.109:8888
 target_account_name: eosamsterdam
 target_appointed_block_producer_signing_key: EOS5VZGn5mSYQ9yA55uwxEuFjhviddkyNJGrDM3qorX2uaiD6Ty1Z
 target_initial_authority:
